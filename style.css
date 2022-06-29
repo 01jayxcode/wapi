@@ -1,0 +1,264 @@
+/*.container{
+
+	background-color: yellow;
+}*/
+body{
+
+	
+	margin: 0;
+	padding: 0;
+	height: 949px;
+	width: 100%;
+
+	background-image: url(sun.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+	backdrop-filter: blur(7px);
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 20s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+
+
+}
+
+
+
+
+
+.hov{
+
+	color: white;
+}
+
+
+.mycard{
+
+	
+    border: 1px solid white;
+    height: 341px;
+    width: 370px;
+    margin: 150px 0px 0 451px;
+    border-radius: 13px;
+    padding: 45px 0 0 2px;
+    background-color: #00000073;
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+.temp{
+
+	/*border: 1px solid white;*/
+    height: 120px;
+    margin: 59px 2px 0 25px;
+    width: 94px;
+    background-color: #eeeeee42;
+    border: none;
+    font-weight: 400;
+    border-radius: 50%;
+}
+
+.search{
+
+	position: absolute;
+    margin: -19px 9px 9px 13px;
+    width: 284px;
+    color: black;
+    height: 44px;
+    border-radius: 16px;
+    border: none;
+    padding: 0 0 0 12px;
+    background: #ffffff36
+}
+
+.btn{
+
+	margin: -18px 0 1px 303px;
+    height: 44px;
+    width: 39px;
+    position: absolute;
+    border-radius: 13px;
+    border: none;
+}
+
+.se{
+
+	margin-left: -2px;
+}
+
+.unit{
+
+	font-size: 2.3rem;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    margin: 33px 2px 0 12px;
+}
+
+.p2{
+
+	height: 50px;
+    width: 155px;
+    margin: -95px 4px 0 78px;
+    color: white;
+}
+
+.city2{
+
+	height: 50px;
+    width: 230px;
+    margin: 99px 6px 0 35px;
+    font-weight: 400;
+    color: white;
+    font-size: 26px;
+}
+
+.desc{
+
+	position: absolute;
+    margin: -28px 0 0 77px;
+}
+
+.more{
+
+		margin: 14px 0 0 440px;
+    /* padding: 0 16px 0 0; */
+    width: 175px;
+    background-color: #00000073;
+
+}
+
+.dropdown-menu{
+
+	background-color:#72727263 ;
+	border-radius: 10px;
+	margin: 10px 0 0 0;
+}
+
+.dropdown-item{
+
+	color: white;
+
+}
+
+.icon{
+
+	  margin: -89px 0 0 268px;
+    height: 96px;
+    width: 76px;
+}
+
+.foot{
+
+	  margin: 295px 0 0 -77px;
+    position: absolute;
+    width: 100%;
+}
+
+.git{
+
+	color: white;
+}
+.bi{
+
+	color: white;
+}
+
+::placeholder {
+  color: #eee;
+  opacity: 1; /* Firefox */
+  
+}
+
+@media only screen and (max-width: 600px){
+
+	.mycard{
+
+	
+	    border: 1px solid white;
+	    height: 341px;
+	    width: 370px;
+	    margin: 100px 0px 0 10px;
+	    border-radius: 13px;
+	    padding: 45px 0 0 2px;
+	    background-color: #00000073;
+	    border: none;
+	}
+
+	.more{
+
+		    margin: 4px 0 0 -3px;
+
+
+	}
+
+	
+
+		
+}
+
+@media only screen and (max-width: 500px){
+
+	.mycard{
+
+	
+	    border: 1px solid white;
+	    height: 341px;
+	    width: 370px;
+	    margin: 100px 1vw 0 3vw;
+	    border-radius: 13px;
+	    padding: 45px 0 0 2px;
+	    background-color: #00000073;
+	    border: none;
+	    align-self: center;
+	}
+
+
+	.more{
+
+		    margin: 4px 0 0 -3px;
+
+
+	}
+
+	.foot{
+
+	  margin: 295px 0 0 -13px;
+    position: absolute;
+    width: 100%;
+  }
+
+
+	
+}
+
+@media screen(max-width: 400px) {
+
+  .more{
+
+     margin: 4px 0 0 4px;
+
+  }
+
+}
+
+
+@keyframes animate{
+
+	0%{
+			background-image: url(blossom.jpg);
+	}
+	50%{
+			background-image: url(sun.jpg);
+	}
+	100%{
+			background-image: url(snow.jpg);
+	}
+	
+}
